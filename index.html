@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <Img src="./assets/rapid-response-semi-italic.png"> </Img>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <Img src="./assets/rapid-response-semi-italic.png"> </Img>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/pfp2.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jarred</h1>
+        <p class="section__text__p2">Dital/Traditional Artist</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/hjhjhjh.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div class="social-container">
+          <ul>
+              <li> <a href="https://www.facebook.com/kurixteeeee"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+              <li> <a href="https://github.com/jajapablio"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+              <li> <a href="https://www.instagram.com/kurixteeeee/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+          </ul>
+  </div>
+
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/aboutpfp.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>5+ Years <br />Digital & Traditional Artist</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BSCS- Fullbright College Inc.<br />HUMMS- CTSHS-SA <br/>Central Taytay National High School</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I’m an artist who loves diving into both digital and traditional art—whether I’m sketching with a trusty pencil or painting on my tablet, I’m all about exploring the magic of creativity. My work is a mix of landscape paintings, graphite potraits, charcoal portraits, digital paintings, digital portrairs, surrealism, realisme, etc.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Digital/Traditional Artist</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Painting</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Digital Painting</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Charcoal Painting</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Graphite</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">My Artworks</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ii.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Artwork 1</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.instagram.com/kurixteeeee/p/C4afsY-vOxp/'"
+              >
+                Visit
+              </button>
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/hh.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Artwork 2</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/465415071_3040001676141808_8548538834076256550_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGaItS6B3z3jrDDtYHBSgFRY02WMzYsCZpjTZYzNiwJmkJA6NC1nd3oGvPkRB9TC1WEPQHIr9t5YkPUKjQ94BKZ&_nc_ohc=XXYGpSg7hOMQ7kNvgF3PzXa&_nc_oc=AdlCYSMWbinzzVdS0sIj20g4rB0Se3yTl_-mot7FCg7xQa8_5HaZdo0ryJLahpLdVSg&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&_nc_gid=igqTj6I3JIshoY5Qqm_cmA&oh=00_AYHcT5p8ajJy_QEgnCnQl2Ywe1XrwudX097p2NZwiImz7g&oe=67E5D3D7'"
+              >
+                Visit
+              </button>
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/kk.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Artwork 3</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-6/485799735_1167617118493896_3634722029293892286_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEjig2Sxi7BVJh_eUFvcCAxa0Xib8GjFstrReJvwaMWyydLOLY6q9t3PCrgw0O4rxrXOB0RSpKMKHPsUwAZ9BE1&_nc_ohc=ed1hsUCWlzsQ7kNvgFDbyl_&_nc_oc=AdleCtskNVVAdhAHocPQh47OjLVQ8bBx6JND5wwznXShTiZWILPQgUvzSUdeKs-Ysp0&_nc_zt=23&_nc_ht=scontent.fmnl8-2.fna&_nc_gid=VXFHy3gR3cPIDVfx5bcMOg&oh=00_AYHv3mxS3-ZU14NYLlNGOkBSEmLohOwXVuWVeKim-urPrw&oe=67E5B706'"
+              >
+                Visit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <ul>
+            <li> <a href="https://www.facebook.com/kurixteeeee"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+           
+            <li> <a href="hs"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+           
+            <li> <a href="https://www.instagram.com/kurixteeeee/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; Jarred. All rights reserve.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
