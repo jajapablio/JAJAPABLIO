@@ -181,6 +181,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+
 }
 
 .section__pic-container {
@@ -188,8 +189,8 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
-  box-shadow: 0 10px 15px lightslategray;
-  border-radius: 100%;
+  
+
   box-sizing: content-box;
 }
 
